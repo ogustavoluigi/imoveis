@@ -8,7 +8,6 @@
 </head>
 <header>
     <h1>SUA MELHOR OPÇÃO DE VIAGEM</h1>
-    
 </header>
 <body>
     <h1>Via Turismo</h1>
