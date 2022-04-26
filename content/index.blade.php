@@ -9,6 +9,8 @@
 </head>
 <header>
     <h1>SUA MELHOR OPÇÃO DE VIAGEM ESTA AQUI</h1>
+    <h2> Venha viajar conosco<h2>
+        <h3> Sempre que quiser conhecer um lugar diferente, pesquise com agente onde indicamos <h3>
 </header>
 <body>
 
