@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/content/index.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Agencia de Viagem</title>
 </head>
 <header>
-    <h1>SUA MELHOR OPÇÃO DE VIAGEM ESTA AQUI</h1>
-    <h2> Venha viajar conosco<h2>
-        <h3> Sempre que quiser conhecer um lugar diferente, pesquise com agente onde indicamos <h3>
+    <div class="container-logo">
+        <div class="logo-image"></div>
+        <div class="logo-text"></div>
+            <h1>EMBARQUE NESTA EXPERIÊNCIA<h1>
+    </div>
+    <div class="cabecalho'">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pacotes</a></li>
+            <li><a href="#">Aereo</a></li>
+            <li><a href="#">Rodoviario</a></li>
+    </div>        
 </header>
 <body>
+    <p>Venha viajar conosco<p>
+    
 
 </body>
 </html>

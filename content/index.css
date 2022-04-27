@@ -1,5 +1,24 @@
-.body{
-    background-color: blue;
-    
-
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: rgba(185, 185, 232, 0.663);
+    display:flex;
+    justify-content: space-around;
+}
+.logo-image{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 25%;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    margin-left: 20px;
 }
