@@ -22,3 +22,10 @@ header{
 .logo-text{
     margin-left: 20px;
 }
+.cabecalho li{
+    display: inline-block;
+}
+.cabecalho li a{
+    font-size: 24px;
+    text-decoration: none;
+}
