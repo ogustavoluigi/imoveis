@@ -24,7 +24,7 @@
                 <div id="navbar-items">
                 <div></div>
                 <form class="d-flex" id="search-form">
-                    <input type="search" class="form-control me-2" placeholder="Busque Imóvel"aria-label="Search">
+                    <input type="search" class="form-control me-2" placeholder="Busque seu Imóvel"aria-label="Search">
                     <button class="btn secondary-bg-color" type="submit">Pesquisar</button>                                
                 </form>
              </div>
