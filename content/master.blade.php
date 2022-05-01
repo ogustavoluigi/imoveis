@@ -18,13 +18,23 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
-                <img src="{{ storage('images/nave2.png')}}" alt="WEB IMOVEL">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Encotre seu imóvel" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        <nav class="navbar navbar-expand-lg prymary-bg-color py-4 px-2" id="navbar"></nav>
+            <div class="container">
+                <a href="#" class="navebar-brand">IMÓVEL WEB </a>
+                <div ID="navbar-items">
+                <div></div>
+                <form class="d-flex" id="search-form">
+                    <i class="bi bi-search primary-color"></i>
+                    <input type="search" class="form-control me-2" placeholder="Busque seu Imóvel"aria-label="Search">
+                    <button class="btn secondary-bg-color" type="submit">Pesquisar</button>                                
                 </form>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="bi bi-heart"></i>
+                        </a>
+                        <span class="qty-info">5</span>
+                    </li>
             </div>
         </nav>      
     </header>
