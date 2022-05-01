@@ -18,24 +18,16 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg prymary-bg-color py-4 px-2" id="navbar"></nav>
+        <nav class="navbar navbar-expand-lg prymary-bg-color py-4 px-2" id="navbar">
             <div class="container">
-                <a href="#" class="navebar-brand">IMÓVEL WEB </a>
-                <div ID="navbar-items">
+                <a href="#" class="navbar-brand">IMÓVEL WEB</a>
+                <div id="navbar-items">
                 <div></div>
                 <form class="d-flex" id="search-form">
-                    <i class="bi bi-search primary-color"></i>
-                    <input type="search" class="form-control me-2" placeholder="Busque seu Imóvel"aria-label="Search">
+                    <input type="search" class="form-control me-2" placeholder="Busque Imóvel"aria-label="Search">
                     <button class="btn secondary-bg-color" type="submit">Pesquisar</button>                                
                 </form>
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="bi bi-heart"></i>
-                        </a>
-                        <span class="qty-info">5</span>
-                    </li>
-            </div>
+             </div>
         </nav>      
     </header>
     @yield('content')
