@@ -30,7 +30,7 @@
     @yield('content')
 
     <footer>
-        <p>Estamos ansiosos para realizar seu sonho <a href="#"  ></a></p>
+        <p><b>Estamos ansiosos para realizar seu sonho <a href="#"  ></a></b></p>
     </footer>
 
 </body>
