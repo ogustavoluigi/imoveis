@@ -20,10 +20,12 @@ header{
     background-color: rgba(37, 37, 38, 0.913);
     display:block;
 }
-input,
-select,
-textarea{
-    max-width: 400px;
+form{
+    display: inline-block;
+    position: relative;
+}
+.form-control{
+    min-width:300px;
 }
 
 .primery-bg-color{
@@ -63,11 +65,12 @@ textarea{
     }
 }
 #search-form{
-    width:100%;
-    margin:2em 0;
+    min-width:100%;
+    margin:12em 0;
     border:2px solid #2525255a;
     border-radius: 5px;
-    padding: 5px 5px;
+    padding: 2px 2px;
+    
     
 }
 @media(min-width:768px){
@@ -96,4 +99,5 @@ textarea{
     color: rgba(255, 255, 255, 0.913);
     
 }
+
 
