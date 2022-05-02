@@ -37,6 +37,7 @@ textarea{
 #navbar .navbar-nav{
     flex-direction: row;
     justify-content: end;
+   
 }
 #navbar a,
 #navbar button{
@@ -96,9 +97,4 @@ textarea{
     color: rgba(255, 255, 255, 0.913);
     
 }
-@media(min-width:768px){
-    #bottom-navbar-container{
-    width: 100%;
-    margin:0; 
-    }
-}
+
