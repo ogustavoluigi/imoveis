@@ -11,13 +11,13 @@ a{
 }
 
 body{
-    background-color:rgba(137, 137, 161, 0.663);
-    color: rgb(15, 15, 16);
+    background-color:rgba(30, 30, 33, 0.913);
+    color: rgb(239, 239, 247);
     text-align: center;   
 }
 header{
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-color: rgb(10, 10, 10);
     display:block;
 }
@@ -31,22 +31,22 @@ textarea{
     background-color: #191818;
 }
 .secondary-bg-color{
-    background-color: rgba(211, 212, 213, 0.46);
+    background-color: rgba(30, 30, 33, 0.913);
 }
 .light-bg-color{
-    background-color: rgba(150, 150, 213, 0.46);
+    background-color: rgba(30, 30, 33, 0.913);
 }
 .dark-bg-color{
-    background-color: #101010;
+    background-color: rgb(30, 30, 33);
 }
 .primery-color{
-    color:#252525
+    color:#ffffff;
 }
 .secondary-color{
-    color:rgba(150, 150, 213, 0.46);
+    color:#ffffff;
 }
 .light-color{
-    color:rgba(150, 150, 213, 0.46)
+    color:#ffffff;
 }
 
 #navbar .navbar-nav{
@@ -69,10 +69,11 @@ textarea{
 }
 #navbar-items{
     justify-content: space-between;
-}
+    align-items: center;
+    }
 @media(min-width:768px){
     .navbar-items{
-    min-width: 80%;
+    min-width: 100%;
     display: flex; 
     }
 }
@@ -86,7 +87,7 @@ textarea{
 }
 @media(min-width:768px){
     #search-form{
-    min-width: 50%;
+    width: 100%;
     margin:0; 
     }
 }
@@ -94,7 +95,18 @@ textarea{
     background-color: transparent;
     border:none;
     color:#fff;
+
 }
 #search-form input:focus{
  box-shadow: none;
 }
+/*navbar bottom*/
+#bottom-navbar-container{
+    font-weight: 700;
+    color: rgba(131, 131, 146, 0.913);
+  }
+#bottom-navbar-container a{
+    color: rgba(156, 156, 168, 0.793);
+    
+}
+

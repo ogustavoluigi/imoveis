@@ -20,10 +20,11 @@
 
 <body>
     <header>
-            <nav class="navbar navbar-expand-lg prymary-bg-color py-4 px-2" id="navbar">
+        <nav class="navbar navbar-expand-lg prymary-bg-color py-4 px-2" id="navbar">
             <div class="container">
-            <a href="#" class="navbar-brand">IMÓVEL WEB</a>   
-            <div id="navbar-items">
+                <img src="{{ storage('images/navbar.png')}}" alt="Seu Imóvel">
+                <a href="#" class="navbar-brand">WEB IMÓVEIS </a>
+                <div id="navbar-items">
                     <div></div>
                     <form class="d-flex" id="search-form">
                         <input type="search" class="form-control me-2" placeholder="Busque Imóvel" aria-label="Search">
@@ -32,30 +33,52 @@
                 </div>
         </nav>
     </header>
-            <!--Segundo nav-->
-        <nav class="navbar navbar-expand-lg secondary-bg-color p-2" id="bottom-navbar-container">
-            <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar" aria-controls="bottom-navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-list"></i>
+    <!--Segundo nav-->
+    <nav class="navbar navbar-expand-lg secondary-bg-color p-2" id="bottom-navbar-container">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar"
+                aria-controls="bottom-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
             </button>
             <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
-               <li class="nav-item">
-                   <a href="#" class="nav-link">Quem somos</a>
-               </li>
-               <li class="nav-item">
-                   <a href="#" class="nav-link">Contato</a>
-               </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contato</a>
+                </li>
             </ul>
-               
+            
+        </div>
+    </nav>
+    <div class="container" id="mini-banners">
+            <div class="row justify-content-around">
+                <div class="col-12 dark-bg-color" id="mini-banner-1">
+                    <h2>Casa de Campo</h2>
+                    <img src="{{ storage('images/casa_de_campo.jpg')}}" alt="casadecampo">
+                    <br>
+                    <a href="#">Saiba Mais</a>
+                <div class="col-12 secondary-bg-color" id="mini-banner-3">
+                    <h2>Casa de Praia</h2>
+                    <img src="{{ storage('images/casa_de_praia.jpg')}}" alt="casadepraia">
+                    <br>
+                    <a href="#">Saiba Mais</a>
+                <div class="col-12 ligth-bg-color" id="mini-banner-3">
+                    <h2 class="secondary-color">Casa na Cidade</h2>
+                    <img src="{{ storage('images/casa_de_cidade.jpg')}}" alt="casadecidade">
+                    <br>
+                    <a href="#">Saiba Mais</a>
+                </div>
             </div>
-
-
-        </nav>
+            </div>
     </header>
     @yield('content')
 
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
     <footer>
-        <p><b>Estamos ansiosos para realizar seu sonho <a href="#"></a></b></p>
+        <p><b>Acompanhe nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta2.png')}}" alt="Insta"></a><a href="#"><img src="{{ storage('images/twiter2.png')}}" alt="Twiter"><a href="#"><img src="{{ storage('images/face2.png')}}" alt="Face"></b></p>
     </footer>
 
 </body>
