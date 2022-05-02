@@ -20,10 +20,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg secondary-bg-color py-4 px-2" id="navbar">
-            <div class="container secondary-bg-color">
+        <nav class="navbar navbar-expand-lg py-4 px-2" id="navbar">
+            <div class="container">
                 <img src="{{ storage('images/navbar.png')}}" alt="Seu Imóvel">
-                <a href="#" class="navbar-brand secondary-bg-color">WEB IMÓVEIS </a>
+                <a href="{{url('/')}}" class="navbar-brand ">WEB IMÓVEIS </a>
                 <div id="navbar-items">
                     <div></div>
                     <form class="d-flex" id="search-form">
@@ -31,55 +31,37 @@
                         <button class="btn secondary-bg-color" type="submit">Pesquisar</button>
                     </form>
                 </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg prymary-bg-color p-2" id="bottom-navbar-container">
+            <div class="container">
+                <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
+                    <li class="nav-item">
+                        <a href="{{url('/somos')}}" class="nav-link">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Venda seu Imóvel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Compre seu Imóvel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{url('/contato')}}" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <!--Segundo nav-->
-    <nav class="navbar navbar-expand-lg prymary-bg-color p-2" id="bottom-navbar-container">
-        <div class="container">
-                <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Quem somos</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Venda seu Imóvel</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Compre seu Imóvel</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contato</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container" id="mini-banners">
-        <div class="row justify-content-around">
-            <div class="col-12 primery-bg-color" id="mini-banner-1">
-                <h2 class="primery-bg-color">Casa de Campo</h2>
-                <img src="{{ storage('images/casa_de_campo.jpg')}}{{ storage('images/casa_de_campo.jpg')}}" alt="casadecampo">
-                <br>
-                <a href="#">Saiba Mais</a>
-                <div class="col-12 primery-bg-color" id="mini-banner-3">
-                    <h2 class="primery-bg-color">Casa de Praia</h2>
-                    <img src="{{ storage('images/casa_de_praia.jpg')}}" alt="casadepraia">
-                    <br>
-                    <a href="#">Saiba Mais</a>
-                    <div class="col-12 primery-bg-color" id="mini-banner-3">
-                        <h2 class="primery-bg-color">Casa na Cidade</h2>
-                        <img src="{{ storage('images/casa_de_cidade.jpg')}}" alt="casadecidade">
-                        <br>
-                        <a href="#">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-            </header>
-            @yield('content')
 
-            <footer>
-                <p><b>Acompanhe nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta2.png')}}"
-                                alt="Insta"></a><a href="#"><img src="{{ storage('images/twiter2.png')}}"
-                                alt="Twiter"><a href="#"><img src="{{ storage('images/face2.png')}}" alt="Face"></b></p>
-            </footer>
+
+    @yield('content')
+    <footer>
+        <p><b>Acompanhe nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta2.png')}}" alt="Insta"></a><a
+                    href="#"><img src="{{ storage('images/twiter2.png')}}" alt="Twiter"><a href="#"><img
+                            src="{{ storage('images/face2.png')}}" alt="Face"></b></p>
+    </footer>
+
 
 </body>
 
