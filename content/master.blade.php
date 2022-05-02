@@ -56,7 +56,7 @@
         <div class="row justify-content-around">
             <div class="col-12 primery-bg-color" id="mini-banner-1">
                 <h2 class="primery-bg-color">Casa de Campo</h2>
-                <img src="{{ storage('images/casa_de_campo.jpg')}}" alt="casadecampo">
+                <img src="{{ storage('images/casa_de_campo.jpg')}}{{ storage('images/casa_de_campo.jpg')}}" alt="casadecampo">
                 <br>
                 <a href="#">Saiba Mais</a>
                 <div class="col-12 primery-bg-color" id="mini-banner-3">
