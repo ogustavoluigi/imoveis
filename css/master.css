@@ -101,3 +101,11 @@ form{
 }
 
 
+/* footer */
+#contact-area{
+    text-align: center;
+}
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}

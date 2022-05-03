@@ -27,7 +27,8 @@
                 <div id="navbar-items">
                     <div></div>
                     <form class="d-flex" id="search-form">
-                        <input type="search" class="form-control me-2" placeholder="Busque o seu Imóvel" aria-label="Search">
+                        <input type="search" class="form-control me-2" placeholder="Busque o seu Imóvel"
+                            aria-label="Search">
                         <button class="btn secondary-bg-color" type="submit">Pesquisar</button>
                     </form>
                 </div>
@@ -57,10 +58,30 @@
 
     @yield('content')
     <footer>
-        <p><b>Acompanhe nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta2.png')}}" alt="Insta"></a><a
-                    href="#"><img src="{{ storage('images/twiter2.png')}}" alt="Twiter"><a href="#"><img
-                            src="{{ storage('images/face2.png')}}" alt="Face"></b></p>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p><b>Acompanhe nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta2.png')}}"
+                                        alt="Insta"></a><a href="#"><img src="{{ storage('images/twiter2.png')}}"
+                                        alt="Twiter"><a href="#"><img src="{{ storage('images/face2.png')}}"
+                                            alt="Face"></b></p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <p><span class="contact-tile">Ligue para:</span> (XX) XXXXX-XXXX</p>
+                        <p><span class="contact-tile">Horários:</span> 08:00 - 19:00</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <p><span class="contact-tile">Envie um e-mail:</span> contato@xxxxx.com</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <p><span class="contact-tile">Venha nos visitar:</span> Rua xxxxx, nº xxx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script src="js/script.js"></script>
 
 
 </body>
