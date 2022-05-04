@@ -3,3 +3,18 @@
     margin:0;
     box-sizing: border-box;
 }
+/* ajuste de ima */
+#mini-banners .col-12{
+    padding: 1.5em;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+@media(min-width:768px){
+#mini-banners .col-12{
+     max-witdh:30%;
+    }
+
+}
