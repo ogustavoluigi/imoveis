@@ -4,29 +4,35 @@
 <div class="container" id="mini-banners">
     <div class="row justify-content-around">
         <h2 class="primery-bg-color">Casa de Campo</h2>
-        <div class=" col-md-3 m-3 primery-bg-color" id="mini-banner-1">
-            <img class=" img-fluid rounded" src="{{ storage('images/casa_de_campo.jpg')}}" alt="casadecampo">
-            <br>
-            <a href="#">Saiba Mais</a>
+        <div class="card anuncio">
+            <div class="card-img-top">
+                <img class=" img-fluid rounded" src="{{ storage('images/casa_de_campo.jpg')}}" alt="casadecampo">
+            </div>
+            <div class="card-body">
+                <a href="#">Saiba Mais</a>
+            </div>
         </div>
-        <br>
-        <div class=" col-md-3 m-3 primery-bg-color" id="mini-banner-2">
-            <img class="img-fluid rounded" src="{{ storage('images/cdc2.jpg')}}" alt="casadecampo1">
-            <br>
-            <a href="#">Saiba Mais</a>
+        <div class="card anuncio">
+            <div class="card-img-top">
+                <img class="img-fluid rounded" src="{{ storage('images/cdc2.jpg')}}" alt="casadecampo1">
+            </div>
+            <div class="card-body">
+                <a href="#">Saiba Mais</a>
+            </div>
         </div>
-        <br>
-        <div class=" col-md-3 m-3 primery-bg-color" id="mini-banner-3">
+        <div class="card anuncio">
             <img class="img-fluid rounded" src="{{ storage('images/cdc3.jpg')}}" alt="casadecampo2">
-            <br>
-            <a href="#">Saiba Mais</a>
+            <div class="card-body">
+                <a href="#">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="card anuncio">
+            <img class="img-fluid rounded" src="{{ storage('images/cdc4.jpg')}}" alt="casadecampo3">
+            <div class="card-body">
+                <a href="#">Saiba Mais</a>
+            </div>
         </div>
         <br>
-        <div class=" col-md-3 m-3 primery-bg-color" id="mini-banner-4">
-            <img class="img-fluid rounded" src="{{ storage('images/cdc4.jpg')}}" alt="casadecampo3">
-            <br>
-            <a href="#">Saiba Mais</a>
-        </div>
         <div class="col-12 primery-bg-color" id="mini-banner">
 
             <h2 class="primery-bg-color">Casa de Praia</h2>
